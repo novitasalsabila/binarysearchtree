@@ -55,4 +55,8 @@ public:
         }
     }
 
-    
+    void search(string element, Node*& parent, Node*& currentNode)
+    {
+        //This function searchs the currentNode of the specified node as well as the current node 
+        //of it's parent
+       
